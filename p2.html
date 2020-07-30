@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <style>
+    body{
+}
+#survey-form{
+  padding-top:30px;
+  background-color: #254346;
+  width:670px;
+  height:1580px;
+}
+#img-div{
+  background-image:url("a1.jpg");
+  opacity:0.8;
+}
+.h1{
+   background-color:#e6c18d;
+   opacity:1.9;
+   height:1850px;
+   padding-left:300px;
+}
+#title{
+  padding-top:100px;
+  font-size:35px;
+  color:white;
+}
+#submit
+{
+  width:90px;
+  height:40px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:10px;
+  margin-left:264px;
+}
+#description{
+  font-size:20px;
+  color:black;
+  line-height:60px;
+}
+#name{
+  font-size:20px;
+  font-family:Arial;
+}
+#email{
+  font-size:20px;
+  font-family:Arial;
+}
+#number
+{
+  font-size:20px;
+  font-family:Arial;
+}
+#dropdown{
+  width:595px;
+  height:45px;
+  margin-left:24px;
+  margin-top:10px;
+}
+</style>
+<title>FCC:serway form</title>
+  </head>
+  <body id="img-div">
+      <div class="h1">
+          <div id="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;freeCodeCamp Survey Form<br>
+          <span  id="description"><i>&nbsp;&nbsp;&nbsp;&nbsp;Thank you for taking the time to help us improve the platform</i></span><div>
+            <br>
+          <div id="survey-form">
+            <form action="">
+          <span  id="name">&nbsp;&nbsp;&nbsp;&nbsp;Name</span>
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" value="" style="width:595px;height:45px;margin-left:23px;line-height:20px;margin-top:7px;"><br>
+          <span id="email">&nbsp;&nbsp;&nbsp;&nbsp;Email</span>
+              &nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="" value="" style="width:595px;height:45px;margin-left:24px;margin-top:7px;"><br>
+          <span id="number">&nbsp;&nbsp;&nbsp;&nbsp;Age(optional)</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="" value="" style="width:595px;height:45px;margin-left:24px;margin-top:7px;"><br><br>
+          <span style="font-size:20px;font-family:Arial;">&nbsp;&nbsp;&nbsp;&nbsp;Which option best describes your current role?</span>
+          <select id="dropdown" name="options">
+                     <option value="a">Student</option>
+                     <option value="b">Full time job</option>
+                     <option value="c">Full time learner</option>
+                     <option value="d">Prefer not to say</option>
+          </select>
+          <br><br>
+             <span style="font-size:20px;font-family:Arial;">&nbsp;&nbsp;&nbsp;&nbsp;Would you recommend freeCodeCamp to a friend?</span><br>
+             &nbsp;&nbsp;&nbsp;<input type="radio" name="s" value=""><span style="font-size:14px;">Definitely</span><br>
+             &nbsp;&nbsp;&nbsp;<input type="radio" name="s" value=""><span style="font-size:14px;">May be</span><br>
+             &nbsp;&nbsp;&nbsp;<input type="radio" name="s" value=""><span style="font-size:14px;">Not Sure</span><br><br>
+             <span style="font-size:20px;font-family:Arial;">&nbsp;&nbsp;&nbsp;&nbsp; What is your favorite feature of freeCodeCamp? </span>
+             <select id="course" name="options" style="width:595px;height:45px;margin-left:24px;margin-top:10px;">
+                        <option value="a">Challanges</option>
+                        <option value="b">Projects</option>
+                        <option value="c">Community</option>
+                        <option value="d">Open source</option>
+             </select>
+             <br><br>
+            <span style="font-size:20px;font-family:Arial;">&nbsp;&nbsp;&nbsp;&nbsp;What would you like to see improved? (Check all that apply) </span><br>
+            &nbsp;&nbsp;&nbsp;<input type="checkbox" name="sq" value=""><span style="font-size:14px;">Front-end Projects</span><br>
+            &nbsp;&nbsp;&nbsp;<input type="checkbox" name="sq" value=""><span style="font-size:14px;">Data Visualization</span><br>
+            &nbsp;&nbsp;&nbsp;<input type="checkbox" name="sq" value=""><span style="font-size:14px;">Challenges</span><br>
+            &nbsp;&nbsp;&nbsp;<input type="checkbox" name="sq" value=""><span style="font-size:14px;">Back-end Projects</span><br>
+            &nbsp;&nbsp;&nbsp;<input type="checkbox" name="sq" value=""><span style="font-size:14px;">Open Source Community</span><br>
+            &nbsp;&nbsp;&nbsp;<input type="checkbox" name="sq" value=""><span style="font-size:14px;">Videos/Wiki</span><br>
+            &nbsp;&nbsp;&nbsp;<input type="checkbox" name="sq" value=""><span style="font-size:14px;">City Meetups</span><br><br>
+            <span style="font-size:20px;font-family:Arial;">&nbsp;&nbsp;&nbsp;&nbsp;Any comments or suggestions?</span><br>
+            <div>
+            &nbsp;&nbsp;&nbsp;<textarea name="comments" id="comments" style="font-family:sans-serif;font-size:30px;width:600px;height:300px;margin-top:20px;">               Hey... say something!
+            </textarea>
+           </div>
+           <br>
+           <input type="submit" value="Submt" id="submit">
+              </form>
+          </div>
+      </div>
+  </body>
+</html>
